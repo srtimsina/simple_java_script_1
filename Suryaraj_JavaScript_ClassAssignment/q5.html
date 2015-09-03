@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function q5(){
+    var bCount=0;
+
+    var gCount=0;
+    do{
+        var char=prompt("Please enter the character");
+        char=char.toLowerCase();
+
+        if(char=='b')
+        {
+            bCount++;
+        }else if(char=='g'){
+            gCount++;
+        }else{
+            continue;
+        }
+
+    }while(char!='x');
+
+    alert("B-Count is "+bCount+" and the G-Count is "+gCount);
+}
+
+
+
+</script>
+
+</head>
+<body>
+<button onclick="q5()">Number of characters</button>
+
+</body>
+</html>

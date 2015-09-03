@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function q2()
+{
+	var x=prompt("Please enter temeprature to convert you want to convert");
+	var farheinheit=(x*9/5)+32;
+	var celcius=(x-32)*5/9 ;
+	alert("The temperature in farheinheit scale is :"+ farheinheit);
+	
+	alert("The temperature in celcius scale is :" + celcius);
+	
+
+}
+
+</script>
+
+</head>
+<body>
+<button onclick="q2();">Click Here to convert temperature</button>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+function q1()
+{
+var x=prompt("Please enter the number you want to check?");
+
+if(x>100)
+{
+	alert("The number you entered is greater than 100");
+
+}
+else
+{
+	alert("Sorry, The number you entered is less than 100");
+}
+
+}
+</script>
+
+</head>
+<body>
+<button onclick="q1()">q1</button>
+</body>
+</html>

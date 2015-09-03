@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+
+
+function mul(){
+
+    var num1=prompt("Enter 1st number");
+
+    var num2=prompt("Enter 2nd number");
+
+    var mul=(num1*num2)
+
+    alert("Multiplication of"+num1+" and "+num2+" is "+mul);
+}
+
+function div(){
+
+    var num1=prompt("Enter 1st number");
+
+    var num2=prompt("Enter 2nd number");
+
+    var div=(num1 / num2)
+
+    alert("Division of"+num1+" and "+num2+" is "+div);
+}
+</script>
+
+</head>
+<body>
+<button onclick="mul()">Multiplication</button>
+<button onclick="div()">Division</button>
+
+
+</body>
+</html>

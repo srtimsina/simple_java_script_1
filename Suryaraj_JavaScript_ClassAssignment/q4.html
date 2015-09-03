@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function operation()
+{
+	var eS=prompt("Enter your marks in Embeded System");
+	var rTS=prompt("Enter your marks in Real Time System");
+	var iP=prompt("Enter your marks in Image Processing");
+        var jP=prompt("Enter your marks in Java Programming");
+        var wT=prompt("Enter your marks in Web Technology");
+	var result =(+eS+ +rTS+ +iP+ +jP+ +wT)/5;
+	alert(result);
+	if (result>=80&&result<=100) {
+		alert("Congrats, your score is "+result+"%");
+
+	}
+	else  if (result>=60&&result<=79) {
+		alert("Congrats, your score is "+result+"%");
+
+	}
+	else if (result>=40&&result<=59) {
+		alert("Congrats, your score is"+result+"%");
+
+	}
+	else
+	{
+		alert("Sorry, you could not pass Try Next Time" +result+"%");
+	}
+}
+
+</script>
+
+</head>
+<body>
+
+<button onclick="operation()">Calculate Position</button>
+
+</body>
+</html>
+
